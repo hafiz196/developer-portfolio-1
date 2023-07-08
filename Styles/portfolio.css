@@ -24,6 +24,7 @@ nav {
   justify-content: space-between;
   /* line soman korar jonno */
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -42,4 +43,17 @@ nav a {
   /* text-decoration: portfolio ,blog er niche under line */
   text-decoration: none;
   color: #474747;
+}
+/* header raleted style */
+.header{
+    background: #FFF8F3;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display:flex;
+    align-items: center;
+}
+.banne .profile-pic{
+    width: 500px;
 }
