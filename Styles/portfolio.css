@@ -46,11 +46,11 @@ nav a {
 /* header raleted style */
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url('../images/developer.png');
   /* background repeat hole e attribuite use kore  */
   background-repeat: no-repeat;
   /* background position (obostan) tik na hole e attribuite use korte hoy */
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner {
   /* TRBL */
