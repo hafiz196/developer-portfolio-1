@@ -13,9 +13,8 @@ body {
   border: 0;
   color: white;
   font-size: 20px;
-  font-weight:700;
+  font-weight: 700;
   padding: 15px 35px;
-
 }
 /* nav related styles */
 nav {
@@ -45,37 +44,34 @@ nav a {
   color: #474747;
 }
 /* header raleted style */
-.header{
-    background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
-    /* background repeat hole e attribuite use kore  */
-    background-repeat: no-repeat;
-    /* background position (obostan) tik na hole e attribuite use korte hoy */
-    background-position: bottom right;
-
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  /* background repeat hole e attribuite use kore  */
+  background-repeat: no-repeat;
+  /* background position (obostan) tik na hole e attribuite use korte hoy */
+  background-position: bottom right;
 }
-.banner{
+.banner {
   /* TRBL */
-    padding: 30px 30px 0 150px ;
-    display:flex;
-    align-items: center;
-    /* pictur sore jaoya  */
-    justify-content: space-between;
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  /* pictur sore jaoya  */
+  justify-content: space-between;
 }
-.banner .profile-pic{
-    width: 500px;
-   
+.banner .profile-pic {
+  width: 500px;
 }
-.banner-content{
+.banner-content {
   max-width: 500px;
 }
-.banner-greeting{
+.banner-greeting {
   font-size: 45px;
-  color:#474747;
+  color: #474747;
   margin-bottom: 0;
-  
 }
-.banner-title{
+.banner-title {
   font-size: 85px;
   font-style: normal;
   font-weight: 700px;
@@ -84,35 +80,62 @@ nav a {
 }
 /* start main section style from here  */
 /* bout section style */
-.section-title{
-  color:#181818;
+.section-title {
+  color: #181818;
   text-align: center;
   font-size: 35px;
-
 }
-.section-description{
-  color:#757575;
+.section-description {
+  color: #757575;
   text-align: center;
   font-size: 18px;
 }
-.about{
+.about {
   padding: 130px;
-  border-radius:10px;
-  background: #FFF8F3;
-  margin: 130px 0 ;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
-.about-info-container{
+/* main er modde joto gulu section tag ache tar margin */
+main section {
+  /* mart */
+  margin-top: 130px;
+}
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
 }
-#what-I-Do-description{
-  padding:30px 140px;
-  
+#what-I-Do-description {
+  padding: 30px 140px;
 }
+/* Skill related style */
+.skill-container {
+  display: flex;
+  padding: 30px;
+}
+.skill {
+  padding: 30px;
+  gap: 24px;
+  /* box-sahwdo */
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-decription {
+  color: #757575;
+}
+/* resume-section-style */
+.resume-column-tittle {
+  color: #474747;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
